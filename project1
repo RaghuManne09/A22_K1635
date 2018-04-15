@@ -12,7 +12,7 @@ void getData()
 	FILE *fp;
 	char ch;
 	int count=0,count1=0;
-	fp=fopen("data.txt","r");
+	fp=fopen("CPU_BURST.txt","r");
 	ch=fgetc(fp);
 	while(ch!=EOF)
 	{
